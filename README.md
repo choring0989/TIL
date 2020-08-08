@@ -1,6 +1,6 @@
 # TIL (Today I Learned)
 파편화된 문서들로 고통받기 이제 그만...<br>
-그 날 그 날 소소하게 한 일/배운 것을 정리해두는 Repository
+그날그날 소소하게 한 일/배운 것을 정리해두는 Repository
 
 ## 규칙
 - 하루이틀 Commit하지 못 한 것을 이유로 TIL을 관두지 않기
