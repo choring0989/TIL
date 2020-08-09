@@ -10,7 +10,7 @@
 ## 항목
 ### Python
 - [20200808 파이썬 *, divmode(), int()](python/20200808.md)
-- [20200809 파이썬 replace()](python/20200809.md)
+- [20200809 파이썬 replace(), list.sort() VS sorted()](python/20200809.md)
 
 <br>
 
