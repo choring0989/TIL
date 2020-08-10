@@ -9,8 +9,11 @@
 
 ## 항목
 ### Python
-- [20200808 파이썬 *, divmode(), int()](python/20200808.md)
-- [20200809 파이썬 replace(), list.sort() VS sorted()](python/20200809.md)
+- [20200808 파이썬 * | divmode() | int()](python/20200808.md)
+- [20200809 파이썬 replace() | list.sort() VS sorted()](python/20200809.md)
+
+### Angular JS
+- [20200810 SPA & CSR | AngularJs CLI 중요 명령어 | AngularJs 자료형](Angular/20200810.md)
 
 <br>
 
