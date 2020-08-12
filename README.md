@@ -15,9 +15,10 @@
 ### Angular JS
 - [20200810 SPA & CSR | AngularJs CLI 중요 명령어 | AngularJs 자료형](Angular/20200810.md)
 - [20200811 Angular component 개념과 주요 구조](Angular/20200811.md)
+- [20200812 Angular Data binding](Angular/20200812.md) -> 하다 말았음, 이어서 추가 바람
 
 ### Algorithm
-- [백준 설탕 배달(2839번)](Algorithm/20200811.md)
+- [20200811 백준 설탕 배달(2839번)](Algorithm/20200811.md)
 
 <br>
 
