@@ -30,6 +30,5 @@
   - 8월 14일 전까지 뷰포리아로 원소합성 기능 구현 요망
 - 20200811: 하눌신폭 UI/UX 기획 분석 스터디 참여, 메이플스토리2 메인 UI/UX 간단 분석
 - 20200814: 솔직 챌린지-Yorld 제출 서류 작성 / 기획 검토 및 피드백 / 디자인 시안 수정 중
-- 20200817: 입사
 - 20200818: Angular.js *ngIf
 - 20200824: MongoDB populate: ObjectId를 실제 객체로 치환 but, 중첩시 느려짐 / Angular @input, @output, EventEmitter
