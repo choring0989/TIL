@@ -32,3 +32,4 @@
 - 20200814: 솔직 챌린지-Yorld 제출 서류 작성 / 기획 검토 및 피드백 / 디자인 시안 수정 중
 - 20200818: Angular.js *ngIf
 - 20200824: MongoDB populate: ObjectId를 실제 객체로 치환 but, 중첩시 느려짐 / Angular @input, @output, EventEmitter
+- [d3.js v4](https://github.com/d3/d3/blob/v4.13.0/API.md#axes-d3-axis) (참고용)
