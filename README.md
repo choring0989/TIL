@@ -33,3 +33,4 @@
 - 20200818: Angular.js *ngIf
 - 20200824: MongoDB populate: ObjectId를 실제 객체로 치환 but, 중첩시 느려짐 / Angular @input, @output, EventEmitter
 - [d3.js v4](https://github.com/d3/d3/blob/v4.13.0/API.md#axes-d3-axis) (참고용)
+- 20200830: [*ngFor에 slice 들어감](https://stackoverflow.com/questions/44944570/using-slice-pipe-with-variable-parameters-in-ngfor)
