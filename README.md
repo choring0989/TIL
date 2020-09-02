@@ -34,3 +34,4 @@
 - 20200824: MongoDB populate: ObjectId를 실제 객체로 치환 but, 중첩시 느려짐 / Angular @input, @output, EventEmitter
 - [d3.js v4](https://github.com/d3/d3/blob/v4.13.0/API.md#axes-d3-axis) (참고용)
 - 20200830: [*ngFor에 slice 들어감](https://stackoverflow.com/questions/44944570/using-slice-pipe-with-variable-parameters-in-ngfor)
+- 20200902: 브라우저 CSS 속성 호환성 확인하기 [MDN CSS 참고서](https://developer.mozilla.org/ko/docs/Web/CSS/Reference#%ED%82%A4%EC%9B%8C%EB%93%9C_%EC%83%89%EC%9D%B8)
