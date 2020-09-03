@@ -37,3 +37,4 @@
 - 20200902: 브라우저 CSS 속성 호환성 확인하기 [MDN CSS 참고서](https://developer.mozilla.org/ko/docs/Web/CSS/Reference#%ED%82%A4%EC%9B%8C%EB%93%9C_%EC%83%89%EC%9D%B8) 
 / mongoose pull로 객체 삭제 할 때...<pre>If you specify a condition and the array elements are embedded documents, 
 $pull operator applies the condition as if each array element were a document in a collection.</pre> -> 따로 each 써서 순회하지 않음
+- 20200903: 게임 UI/UX 분석 스터디 2회차 참여 
