@@ -38,3 +38,5 @@
 / mongoose pull로 객체 삭제 할 때...<pre>If you specify a condition and the array elements are embedded documents, 
 $pull operator applies the condition as if each array element were a document in a collection.</pre> -> 따로 each 써서 순회하지 않음
 - 20200903: 게임 UI/UX 분석 스터디 2회차 참여 
+- 20200904: [왜 CSS ::before 는 input과 img에는 동작하지 않을까](https://news.hada.io/topic?id=2781)
+- 20200908: [데이터 시각화를 위한 색상 선택하기](https://blog.datawrapper.de/beautifulcolors/)
