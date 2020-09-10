@@ -40,3 +40,4 @@ $pull operator applies the condition as if each array element were a document in
 - 20200903: 게임 UI/UX 분석 스터디 2회차 참여 
 - 20200904: [왜 CSS ::before 는 input과 img에는 동작하지 않을까](https://news.hada.io/topic?id=2781)
 - 20200908: [데이터 시각화를 위한 색상 선택하기](https://blog.datawrapper.de/beautifulcolors/)
+- 20200910: [ES5와 ES6의 주요 차이점](https://yngmanie.space/posts/es5_vs_es6) / Array.prototype.forEach, Array.prototype.reduce, Array.prototype.filter, Array.prototype.map -> es5.1 명세, [es6 EX11에서 forEach를 사용할 경우](https://rimdev.io/foreach-for-ie-11/)
