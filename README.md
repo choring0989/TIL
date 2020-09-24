@@ -42,3 +42,4 @@ $pull operator applies the condition as if each array element were a document in
 - 20200908: [데이터 시각화를 위한 색상 선택하기](https://blog.datawrapper.de/beautifulcolors/)
 - 20200910: [ES5와 ES6의 주요 차이점](https://yngmanie.space/posts/es5_vs_es6) / Array.prototype.forEach, Array.prototype.reduce, Array.prototype.filter, Array.prototype.map -> es5.1 명세, [es6 EX11에서 forEach를 사용할 경우](https://rimdev.io/foreach-for-ie-11/)
 - 20200914: [Babel과 Webpack을 이용한 ES6 환경 구축](https://poiemaweb.com/es6-babel-webpack-1)
+- 20200924: <b>CORS</b>; 교차 출처 리소스 공유, 교차 출처 자원 공유는 웹 페이지 상의 제한된 리소스를 최초 자원이 서비스된 도메인 밖의 다른 도메인으로부터 요청할 수 있게 허용하는 구조이다. -> 액세스 권한 조정 / [<b>SSH란?</b>](https://baked-corn.tistory.com/52)
