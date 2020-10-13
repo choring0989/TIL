@@ -18,7 +18,10 @@
 - [20200812 Angular Data binding](Angular/20200812.md) -> 하다 말았음, 이어서 추가 바람
 
 ### Node.js
-- [20200815&16 node.js express 기본구조, 라우터, 미들웨어](NodeJS/20200815.md)
+- [20200815&16 node.js express 기본구조, 라우터, 미들웨어](JS/20200815.md)
+
+### JS & TS
+- [20200928&1007 JS scope / TS any와 object](JS/20200928.md)
 
 ### Algorithm
 - [20200811 백준 설탕 배달(2839번)](Algorithm/20200811.md)
