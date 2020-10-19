@@ -47,3 +47,4 @@ $pull operator applies the condition as if each array element were a document in
 - 20200914: [Babel과 Webpack을 이용한 ES6 환경 구축](https://poiemaweb.com/es6-babel-webpack-1)
 - 20200924: <b>CORS</b>; 교차 출처 리소스 공유, 교차 출처 자원 공유는 웹 페이지 상의 제한된 리소스를 최초 자원이 서비스된 도메인 밖의 다른 도메인으로부터 요청할 수 있게 허용하는 구조이다. -> 액세스 권한 조정 / [<b>SSH란?</b>](https://baked-corn.tistory.com/52) / [Windows 10 네이티브 방식으로 SSH와 Git 클라이언트 설정하기](https://medium.com/beyond-the-windows-korean-edition/use-windows10-open-ssh-tips-e6e9c77de433)
 - 20201018: JS ES6 화살표 함수는 항상 바인딩 된 this를(lexical scope) 가지며 생성자로 사용할 수 없다(익명함수).
+- 20201019: 웹 주요 광고 - 배너/인터스티셜(풀스크린 전면광고)/리워드 광고 / 기타 - 플레이어블 애드 등
