@@ -28,7 +28,7 @@
 
 <br>
 
-### 그 외 한 일들
+### 그 외 한 일들 / 참고자료
 - 20200808: Yorld 3차 기획 회의 진행 / GDG 취업특강 수강
   - 8월 14일 전까지 뷰포리아로 원소합성 기능 구현 요망
 - 20200811: 하눌신폭 UI/UX 기획 분석 스터디 참여, 메이플스토리2 메인 UI/UX 간단 분석
@@ -48,3 +48,4 @@ $pull operator applies the condition as if each array element were a document in
 - 20200924: <b>CORS</b>; 교차 출처 리소스 공유, 교차 출처 자원 공유는 웹 페이지 상의 제한된 리소스를 최초 자원이 서비스된 도메인 밖의 다른 도메인으로부터 요청할 수 있게 허용하는 구조이다. -> 액세스 권한 조정 / [<b>SSH란?</b>](https://baked-corn.tistory.com/52) / [Windows 10 네이티브 방식으로 SSH와 Git 클라이언트 설정하기](https://medium.com/beyond-the-windows-korean-edition/use-windows10-open-ssh-tips-e6e9c77de433)
 - 20201018: JS ES6 화살표 함수는 항상 바인딩 된 this를(lexical scope) 가지며 생성자로 사용할 수 없다(익명함수).
 - 20201019: 웹 주요 광고 - 배너/인터스티셜(풀스크린 전면광고)/리워드 광고 / 기타 - 플레이어블 애드 등
+- 20201103: 인게임에서 DrawCall은 5개~15개 이내로 유지 할 것, 많을수록 오버헤드 / [유니티 그래픽스 최적화 - 4. 드로우콜과 배칭](https://wonsorang.tistory.com/493)
