@@ -22,7 +22,7 @@
 
 ### JS & TS
 - [20200928&1007 JS scope / TS any와 object](JS/20200928.md)
-- [20220223 ES6 자바스크립트 / JS / TS OOP의 차이]
+- [20220223 ES6 자바스크립트 / JS / TS OOP의 차이](JS/20220223.md)
 
 ### Algorithm
 - [20200811 백준 설탕 배달(2839번)](Algorithm/20200811.md)
@@ -31,6 +31,8 @@
 
 ### 북마크
 - [TypeScript-Handbook 한글 문서](https://typescript-kr.github.io/)
+
+<br>
 
 ### 그 외 한 일들 / 참고자료
 - 20200808: Yorld 3차 기획 회의 진행 / GDG 취업특강 수강
