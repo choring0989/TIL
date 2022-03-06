@@ -23,3 +23,20 @@
   
   > # Run on multiple files
   > npx eslint lib/**</code></pre>
+
+### TypeScript 기초 문법
+- <b>Class</b> : 객체를 생성하기 위한 템플릿으로, 데이터와 데이터를 조작하는 코드를 하나로 추상화한다.
+- 접근 제한자(Access modifier) public, private, protected 를 지원하며, 프로퍼티와 메소드에 접근 제한자를 명시하지 않을 경우에는 암묵적으로 `public`이 된다.
+- 클래스 프로퍼티에 `readonly`를 적용할 수 있으며, readonly로 프로퍼티를 선언시 생성자 내부에서만 값을 할당할 수 있다. 그 외에는 오직 읽기만 가능한 상태가 된다. 따라서 상수 선언에 활용이 잦다.
+- 클래스 프로퍼티나 메소드에 `static`을 적용할 수 있으며, 정적 메소드로 선언할 경우 클래스의 인스턴스를 생성하지 않아도 `클래스이름.메소드`로 호출할 수 있다.
+
+<pre><code>class Greeter {
+    greeting: string;
+    constructor(message: string) {
+        this.greeting = message;
+    }
+    greet() {
+        return "Hello, " + this.greeting;
+    }
+  }
+let greeter = new Greeter("world");</code></pre>
