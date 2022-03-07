@@ -156,6 +156,9 @@ class me implements human {
 }
 </code></pre>
 
+- <b>Data Types</b>: `Boolean`, `Number`, `String`, `Array`, `Tuple`, `Enum`, `Any`, `Void`, `Null`, `Undefined`, `Object` 타입 등이 있다.
+- 자세한 예제와 내용은 [TypeScript-Handbook 한글 문서 - 기본 타입](https://typescript-kr.github.io/pages/basic-types.html) 참고
+
 ---
 ### 참고자료
 - [poiemaweb](https://poiemaweb.com/typescript-class)
