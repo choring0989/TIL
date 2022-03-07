@@ -65,10 +65,8 @@ class Dog extends Animal {
 
 const myDog = new Dog();
 myDog.makeSound();
-myDog.move();
-</code></pre>
+myDog.move();</code></pre>
 
-
-<hr><br>
-### 참고자료<br>
+---
+### 참고자료
 - [poiemaweb](https://poiemaweb.com/typescript-class)
