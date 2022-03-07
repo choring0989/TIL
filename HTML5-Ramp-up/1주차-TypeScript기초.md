@@ -67,6 +67,75 @@ const myDog = new Dog();
 myDog.makeSound();
 myDog.move();</code></pre>
 
+
+- <b>Interface</b> : 변수, 함수, 클래스에 타입 체크를 위해 강제하는 구현 (일종의 약속을 지정)
+- Duck type 언어인 TS에서 인터페이스에 선언된 메소드나 프로퍼티의 구현을 강제하여 구조의 일관성을 유지할 수 있도록 돕는다.
+- ES6는 인터페이스를 지원하지 않으나 TS에서는 인터페이스를 지원하지 않는다.
+- 인터페이스는 직접 인스턴스를 생성할 수 없으며, 인터페이스의 모든 메소드는 개념적으로 추상 메소드이나 `abstract`키워드를 붙이지 않는다.
+- 인터페이스의 프로퍼티는 반드시 구현해야 하나, 인터페이스의 프로퍼티 일부가 선택적으로 필요한 경우 프로퍼티 이름 뒤에 `?` 를 붙인다.
+- 인터페이스 또한 `extends`키워드를 이용해 다른 인터페이스나 클래스를 상속받을 수 있다. 복수의 상속도 가능하다.
+<pre><code>// 인터페이스의 정의
+interface Todo {
+  id: number;
+  content: string;
+  completed: boolean;
+}
+
+// 변수 todo의 타입으로 Todo 인터페이스를 선언하였다.
+let todo: Todo;
+
+// 변수 todo는 Todo 인터페이스를 준수하여야 한다.
+todo = { id: 1, content: 'typescript', completed: false };
+</code></pre>
+<pre><code>// 함수 인터페이스의 정의
+interface SquareFunc {
+  (num: number): number;
+}
+
+// 함수 인테페이스를 구현하는 함수는 인터페이스를 준수하여야 한다.
+const squareFunc: SquareFunc = function (num: number) {
+  return num * num;
+}
+
+console.log(squareFunc(10)); // 100
+</code></pre>
+<pre><code>// 인터페이스의 정의
+interface ITodo {
+  id: number;
+  content: string;
+  completed: boolean;
+}
+
+// Todo 클래스는 ITodo 인터페이스를 구현하여야 한다.
+class Todo implements ITodo {
+  constructor (
+    public id: number,
+    public content: string,
+    public completed: boolean
+  ) { }
+}
+
+const todo = new Todo(1, 'Typescript', false);
+
+console.log(todo);
+</code></pre>
+<pre><code>// 선택적 프로퍼티
+interface UserInfo {
+  username: string;
+  password: string;
+  age?    : number;
+  address?: string;
+}
+
+const userInfo: UserInfo = {
+  username: 'ungmo2@gmail.com',
+  password: '123456'
+}
+
+console.log(userInfo);
+</code></pre>
+
 ---
 ### 참고자료
 - [poiemaweb](https://poiemaweb.com/typescript-class)
+- [TypeScript-Handbook 한글 문서](https://typescript-kr.github.io/)
