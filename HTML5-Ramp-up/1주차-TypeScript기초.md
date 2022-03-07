@@ -134,6 +134,27 @@ const userInfo: UserInfo = {
 
 console.log(userInfo);
 </code></pre>
+- <b>Inheritance</b>: 상속, 부모 클래스(또는 인터페이스)의 프로퍼티와 메소드를 자식 클래스(또는 인터페이스)에서 사용할 수 있도록 하는 것
+- 타입스크립트에서는 `extends` 키워드를 이용해 다른 인터페이스나 클래스를 상속받을 수 있으나, 클래스는 단 하나만 상속이 가능하고 인터페이스는 다중 상속이 가능하다.
+<pre><code>interface face {
+    eye: string;
+    mouse: string;
+}
+
+interface head {
+    hiar: string;
+}
+
+interface human extends face, head {
+  // 인터페이스끼리는 다중 상속이 가능
+}
+
+class me implements human {
+    eye = "";
+    mouse = "";
+    hiar = "";
+}
+</code></pre>
 
 ---
 ### 참고자료
