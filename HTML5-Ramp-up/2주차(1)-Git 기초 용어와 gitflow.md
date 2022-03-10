@@ -28,3 +28,13 @@ Sourcetree는 git을 편리하게 사용하기 위한 GUI 도구입니다.
   - <pre>$ git stash apply [stach name]</pre>
 - <b>merge</b>: 서로 다른 두 개의 브랜치를 현재 브랜치로 합칩니다.
   - <pre>$ git merge [branch name]</pre>
+<br>
+
+### Git flow
+Git flow는 다수의 개발자간 협업 과정에서 제품 개발 및 배포를 원활하게 돕기 위한 깃 브랜치 전략입니다. 일반적으로 `master`, `develop`, `feature`, `release`, `hotfix` 5개의 브랜치를 운영합니다. 이 중 가장 중요한 브랜치는 <b>master</b>와 <b>develop</b>브랜치로, 나머지 브랜치는 팀 내 필요성에 따라 운영합니다.
+- <b>master</b>: 가장 근본이 되는 브랜치로 배포<b>된</b> 제품의 코드를 가지고 있는 브랜치입니다.
+- <b>develop</b>: 메인 개발이 진행되는 브랜치로 실개발이 진행되는 브랜치입니다.
+- <b>feature</b>: 하나의 기능을 개발하는 브랜치로, 해당 기능이 개발 완료되면 develop 브랜치로 merge합니다.
+- <b>release</b>: master 브랜치로 배포를 보내기 전에 QA를 진행하기 위한 코드를 가지고 있는 브랜치입니다. 추후에 marster와 devlope 브랜치로 merge합니다.
+- <b>hotfix</b>: master 브랜치의 내용을 배포한 후에 버그가 생겼을때 긴급 수정을 진행하는 브랜치입니다. 추후에 marster와 devlope 브랜치로 merge합니다.
+자세한 플로우는 [git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html) 페이지를 참고하면 도움이 됩니다.
