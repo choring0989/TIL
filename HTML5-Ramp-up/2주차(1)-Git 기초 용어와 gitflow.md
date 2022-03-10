@@ -16,11 +16,11 @@ Sourcetree는 git을 편리하게 사용하기 위한 GUI 도구입니다.
   - <pre>$ git pull</pre>
 - <b>push</b>: 현재까지의 커밋 목록을 원격 저장소에 올립니다.
   - <pre>$ git push [branch name]</pre>
-- <b>branch</b>: 같은 저장소 내에서 코드 작업 공간을 용도별로 분리한 것입니다.
+- <b>branch</b>: 작업 코드의 분기점을 나타냅니다. 일반적으로 같은 저장소 내에서 코드 작업 공간을 용도별로 분리한 것입니다.
   - <pre>$ git branch [branch name]</pre>
 - <b>checkout</b>: 특정 브랜치로 작업 상태를 옮기고 싶을때 사용합니다.
   - <pre>$ git checkout [branch name]</pre>
-- <b>stash</b>: 브랜치의 작업 내용을 커밋하지 않고, 임시로 저장해 둘 때 사용하는 기법입니다.
+- <b>stash</b>: 작업 코드의 현재 상태를 기록하되, 깨끗한 작업 코드로 돌아가고 싶을 때 사용합니다. 브랜치의 작업 내용을 커밋하지 않고, 임시로 저장해 둘 때 사용하는 기법입니다.
   - 커밋할 수 없는 작업 도중에, 다른 브랜치로 체크아웃 해야 할 때 사용합니다.
   - 또는 A브랜치에서 현재 작업 중인 내용을 A브랜치가 아닌, B브랜치에만 적용하고 싶을 때 사용합니다.
   - <pre>$ git stash</pre>
@@ -28,6 +28,7 @@ Sourcetree는 git을 편리하게 사용하기 위한 GUI 도구입니다.
   - <pre>$ git stash apply [stach name]</pre>
 - <b>merge</b>: 서로 다른 두 개의 브랜치를 현재 브랜치로 합칩니다.
   - <pre>$ git merge [branch name]</pre>
+- [https://git-scm.com/docs](https://git-scm.com/docs)
 <br>
 
 ### Git flow
