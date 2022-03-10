@@ -26,7 +26,8 @@ Sourcetree는 git을 편리하게 사용하기 위한 GUI 도구입니다.
   - <pre>$ git stash</pre>
   - <pre>$ git stash list</pre>
   - <pre>$ git stash apply [stach name]</pre>
-- <b>merge</b>: 서로 다른 두 개의 브랜치를 현재 브랜치로 합칩니다.
+- <b>merge</b>: 다른 브랜치의 변경사항을 현재 브랜치로 합칩니다.
+  - 현재 체크아웃 브랜치의 작업 상태가 A-1, A-1에 merge할 브랜치의 작업 상태가 B-1이라고 하면 merge된 결과는 새로운 커밋 A-2를 만들어내고, A-2의 부모 커밋은 A-1, B-1이 됩니다. 
   - <pre>$ git merge [branch name]</pre>
 - [https://git-scm.com/docs](https://git-scm.com/docs)
 <br>
