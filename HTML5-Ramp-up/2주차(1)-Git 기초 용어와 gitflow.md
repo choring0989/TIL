@@ -14,7 +14,7 @@ Sourcetree는 git을 편리하게 사용하기 위한 GUI 도구입니다.
   - <pre>$ git fetch</pre>
 - <b>pull</b>: 원격 저장소의 변경 내용을 다운로드하고 merge합니다.
   - <pre>$ git pull</pre>
-- <b>push</b>: 현재까지의 커밋 목록을 원격 저장소에 보냅니다.
+- <b>push</b>: 현재까지의 커밋 목록을 원격 저장소에 올립니다.
   - <pre>$ git push [branch name]</pre>
 - <b>branch</b>: 같은 저장소 내에서 코드 작업 공간을 용도별로 분리한 것입니다.
   - <pre>$ git branch [branch name]</pre>
